@@ -1,0 +1,513 @@
+12:03:26,844 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.7.Final-redhat-1
+12:03:27,044 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+12:03:27,095 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Core 2.0.5.CR1 "Kenny" starting
+12:03:27,096 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_66/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_66/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_66-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_66
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.66-b17
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles
+	jboss.dist = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	jboss.home.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT
+	jboss.host.name = 127
+	jboss.modules.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/modules
+	jboss.node.name = 127
+	jboss.qualified.host.name = 127.0.0.1 panos.redhat.com
+	jboss.server.base.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone
+	jboss.server.config.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/configuration
+	jboss.server.data.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data
+	jboss.server.deploy.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content
+	jboss.server.log.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/log
+	jboss.server.name = 127
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/tmp
+	jbossHome = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	line.separator = 
+
+	logging.configuration = file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties
+	module.path = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules
+	org.jboss.boot.log.file = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.0.8-300.fc22.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_66/jre/lib/resources.jar:/usr/java/jdk1.8.0_66/jre/lib/rt.jar:/usr/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_66/jre/lib/jsse.jar:/usr/java/jdk1.8.0_66/jre/lib/jce.jar:/usr/java/jdk1.8.0_66/jre/lib/charsets.jar:/usr/java/jdk1.8.0_66/jre/lib/jfr.jar:/usr/java/jdk1.8.0_66/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_66/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar -mp /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations
+	user.home = /home/panos
+	user.language = en
+	user.name = panos
+	user.timezone = Europe/Paris
+12:03:27,096 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xmx512m -XX:MaxPermSize=256m -Djboss.dist=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -DjbossHome=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -ea -Djboss.home.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/ -Dorg.jboss.boot.log.file=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log -Dlogging.configuration=file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties -Djboss.bundles.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles 
+12:03:27,616 ERROR [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0055: Caught exception during boot: org.jboss.as.controller.persistence.ConfigurationPersistenceException: WFLYCTL0085: Failed to parse configuration
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:131) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.ServerService.boot(ServerService.java:356) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:299) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_66]
+Caused by: javax.xml.stream.XMLStreamException: WFLYCTL0083: Failed to load module org.jboss.as.threads
+	at org.jboss.as.controller.parsing.ExtensionXml.parseExtensions(ExtensionXml.java:155) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.parsing.StandaloneXml$DefaultExtensionHandler.parseExtensions(StandaloneXml.java:126) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.parsing.StandaloneXml_Legacy.readServerElement_1_4(StandaloneXml_Legacy.java:424) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.parsing.StandaloneXml_Legacy.readElement(StandaloneXml_Legacy.java:135) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:100) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.server.parsing.StandaloneXml.readElement(StandaloneXml.java:49) [wildfly-server-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.staxmapper.XMLMapperImpl.processNested(XMLMapperImpl.java:110) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.staxmapper.XMLMapperImpl.parseDocument(XMLMapperImpl.java:69) [staxmapper-1.2.0.Final.jar:1.2.0.Final]
+	at org.jboss.as.controller.persistence.XmlConfigurationPersister.load(XmlConfigurationPersister.java:123) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	... 3 more
+Caused by: java.util.concurrent.ExecutionException: java.lang.UnsupportedOperationException: WFLYCTL0309: Legacy extension 'org.jboss.as.threads' is not supported on servers running this version. The extension is only supported for use by hosts running a previous release in a mixed-version managed domain
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) [rt.jar:1.8.0_66]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) [rt.jar:1.8.0_66]
+	at org.jboss.as.controller.parsing.ExtensionXml.parseExtensions(ExtensionXml.java:147) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	... 11 more
+Caused by: java.lang.UnsupportedOperationException: WFLYCTL0309: Legacy extension 'org.jboss.as.threads' is not supported on servers running this version. The extension is only supported for use by hosts running a previous release in a mixed-version managed domain
+	at org.jboss.as.controller.extension.AbstractLegacyExtension.initializeParsers(AbstractLegacyExtension.java:87) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.controller.parsing.ExtensionXml.loadModule(ExtensionXml.java:183) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.controller.parsing.ExtensionXml.access$000(ExtensionXml.java:69) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.controller.parsing.ExtensionXml$1.call(ExtensionXml.java:127) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at org.jboss.as.controller.parsing.ExtensionXml$1.call(ExtensionXml.java:124) [wildfly-controller-2.0.5.CR1.jar:2.0.5.CR1]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [rt.jar:1.8.0_66]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [rt.jar:1.8.0_66]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.8.0_66]
+	at org.jboss.threads.JBossThread.run(JBossThread.java:320) [jboss-threads-2.2.1.Final.jar:2.2.1.Final]
+
+12:03:27,618 FATAL [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details.
+12:03:27,621 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested.
+12:03:27,637 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0050: WildFly Core 2.0.5.CR1 "Kenny" stopped in 11ms
+12:05:26,801 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.7.Final-redhat-1
+12:05:26,893 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+12:05:26,935 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) starting
+12:05:26,939 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_66/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_66/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_66-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_66
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.66-b17
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles
+	jboss.dist = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	jboss.home.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT
+	jboss.host.name = 127
+	jboss.modules.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/modules
+	jboss.node.name = 127
+	jboss.qualified.host.name = 127.0.0.1 panos.redhat.com
+	jboss.server.base.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone
+	jboss.server.config.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/configuration
+	jboss.server.data.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data
+	jboss.server.deploy.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content
+	jboss.server.log.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/log
+	jboss.server.name = 127
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/tmp
+	jbossHome = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	line.separator = 
+
+	logging.configuration = file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties
+	module.path = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules
+	org.jboss.boot.log.file = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.0.8-300.fc22.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_66/jre/lib/resources.jar:/usr/java/jdk1.8.0_66/jre/lib/rt.jar:/usr/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_66/jre/lib/jsse.jar:/usr/java/jdk1.8.0_66/jre/lib/jce.jar:/usr/java/jdk1.8.0_66/jre/lib/charsets.jar:/usr/java/jdk1.8.0_66/jre/lib/jfr.jar:/usr/java/jdk1.8.0_66/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_66/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar -mp /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations
+	user.home = /home/panos
+	user.language = en
+	user.name = panos
+	user.timezone = Europe/Paris
+12:05:26,940 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xmx512m -XX:MaxPermSize=256m -Djboss.dist=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -DjbossHome=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -ea -Djboss.home.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/ -Dorg.jboss.boot.log.file=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log -Dlogging.configuration=file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties -Djboss.bundles.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles 
+12:05:27,513 INFO  [org.xnio] (MSC service thread 1-11) XNIO Version 3.0.15.GA-redhat-1
+12:05:27,517 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+12:05:27,518 INFO  [org.xnio.nio] (MSC service thread 1-11) XNIO NIO Implementation Version 3.0.15.GA-redhat-1
+12:05:27,531 INFO  [org.jboss.remoting] (MSC service thread 1-11) JBoss Remoting version 3.3.6.Final-redhat-1
+12:05:27,551 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+12:05:27,555 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+12:05:27,557 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+12:05:27,562 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-16) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.34.Final-redhat-1)
+12:05:27,564 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Activating Security Subsystem
+12:05:27,567 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+12:05:27,583 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+12:05:27,584 INFO  [org.jboss.as.security] (MSC service thread 1-1) JBAS013370: Current PicketBox version=4.1.2.Final-redhat-1
+12:05:27,620 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) JBAS015400: Bound mail session [java:jboss/mail/Default]
+12:05:27,620 INFO  [org.jboss.as.naming] (MSC service thread 1-10) JBAS011802: Starting Naming Service
+12:05:27,693 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+12:05:27,845 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-11) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+12:05:27,866 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-11) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+12:05:27,933 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-15) JBAS015012: Started FileSystemDeploymentService for directory /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/deployments
+12:05:27,943 INFO  [org.jboss.as.remoting] (MSC service thread 1-10) JBAS017100: Listening on 127.0.0.1:9999
+12:05:27,943 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:4447
+12:05:27,958 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-9) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+12:05:27,989 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.5.Final-redhat-3
+12:05:28,162 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+12:05:28,163 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+12:05:28,163 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) started in 1557ms - Started 153 of 191 services (57 services are lazy, passive or on-demand)
+12:05:33,753 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/b0/0f97b6bd798c9407f329bd63b73b8203a09e4d/content
+12:05:33,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-16) JBAS015876: Starting deployment of "arquillian-service" (runtime-name: "arquillian-service")
+12:05:33,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.jmx:main") which may be changed or removed in future versions without notice.
+12:05:33,880 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.server:main") which may be changed or removed in future versions without notice.
+12:05:33,884 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.osgi:main") which may be changed or removed in future versions without notice.
+12:05:33,884 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.jandex:main") which may be changed or removed in future versions without notice.
+12:05:33,884 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-5) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.osgi.framework:main") which may be changed or removed in future versions without notice.
+12:05:33,885 WARN  [org.jboss.as.dependency.deprecated] (MSC service thread 1-5) JBAS015980: Deployment "deployment.arquillian-service" is using a deprecated module ("org.osgi.core:main") which may be removed in future versions without notice.
+12:05:33,904 WARN  [org.jboss.weld.deployer] (MSC service thread 1-9) JBAS016012: Deployment deployment "arquillian-service" contains CDI annotations but beans.xml was not found.
+12:05:34,103 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015859: Deployed "arquillian-service" (runtime-name : "arquillian-service")
+12:05:34,760 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/1f/ab8e8eba04731e15325211560ed137b0a69d75/content
+12:05:34,764 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015876: Starting deployment of "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar" (runtime-name: "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar")
+12:05:34,780 INFO  [org.jboss.as.arquillian] (MSC service thread 1-16) Arquillian deployment detected: ArquillianConfig[service=jboss.arquillian.config."3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar",unit=3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar,tests=[org.jboss.test.basic.BasicTest]]
+12:05:34,902 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS015859: Deployed "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar" (runtime-name : "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar")
+12:05:36,062 INFO  [org.jboss.arquillian.testenricher.cdi.container.BeanManagerProducer] (pool-1-thread-1) BeanManager not found.
+12:05:36,138 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment 3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar (runtime-name: 3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar) in 12ms
+12:05:36,291 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/1f/ab8e8eba04731e15325211560ed137b0a69d75/content
+12:05:36,291 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS015858: Undeployed "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar" (runtime-name: "3df14e4f-d91b-4c95-9132-a98a6ce4d648.jar")
+12:05:36,305 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-15) JBAS015877: Stopped deployment arquillian-service (runtime-name: arquillian-service) in 3ms
+12:05:36,432 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014901: Content removed from location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/b0/0f97b6bd798c9407f329bd63b73b8203a09e4d/content
+12:05:36,433 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015858: Undeployed "arquillian-service" (runtime-name: "arquillian-service")
+12:05:36,453 INFO  [org.apache.catalina.core] (MSC service thread 1-10) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+12:05:36,457 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+12:05:36,468 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-15) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+12:05:36,470 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-15) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+12:05:36,482 INFO  [org.jboss.as] (MSC service thread 1-13) JBAS015950: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) stopped in 28ms
+12:05:38,002 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.7.Final-redhat-1
+12:05:38,093 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+12:05:38,135 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) starting
+12:05:38,139 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_66/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_66/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_66-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_66
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.66-b17
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles
+	jboss.dist = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas
+	jboss.home.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT
+	jboss.host.name = 127
+	jboss.modules.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/modules
+	jboss.node.name = 127
+	jboss.qualified.host.name = 127.0.0.1 panos.redhat.com
+	jboss.server.base.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone
+	jboss.server.config.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/configuration
+	jboss.server.data.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data
+	jboss.server.deploy.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content
+	jboss.server.log.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/log
+	jboss.server.name = 127
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/tmp
+	jbossHome = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas
+	line.separator = 
+
+	logging.configuration = file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties
+	module.path = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas/modules
+	org.jboss.boot.log.file = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.0.8-300.fc22.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_66/jre/lib/resources.jar:/usr/java/jdk1.8.0_66/jre/lib/rt.jar:/usr/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_66/jre/lib/jsse.jar:/usr/java/jdk1.8.0_66/jre/lib/jce.jar:/usr/java/jdk1.8.0_66/jre/lib/charsets.jar:/usr/java/jdk1.8.0_66/jre/lib/jfr.jar:/usr/java/jdk1.8.0_66/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_66/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/jboss-modules.jar -mp /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations
+	user.home = /home/panos
+	user.language = en
+	user.name = panos
+	user.timezone = Europe/Paris
+12:05:38,140 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Xmx512m -XX:MaxPermSize=256m -Djboss.dist=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas -DjbossHome=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/web/test-configurations/../../../../../eap/build/target/jbossas -ea -Djboss.home.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/ -Dorg.jboss.boot.log.file=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/log/boot.log -Dlogging.configuration=file:/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//standalone/configuration/logging.properties -Djboss.bundles.dir=/home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT//bundles 
+12:05:38,752 INFO  [org.xnio] (MSC service thread 1-11) XNIO Version 3.0.15.GA-redhat-1
+12:05:38,754 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+12:05:38,759 INFO  [org.xnio.nio] (MSC service thread 1-11) XNIO NIO Implementation Version 3.0.15.GA-redhat-1
+12:05:38,780 INFO  [org.jboss.remoting] (MSC service thread 1-11) JBoss Remoting version 3.3.6.Final-redhat-1
+12:05:38,781 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 31) JBAS010280: Activating Infinispan subsystem.
+12:05:38,798 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 37) JBAS012615: Activated the following JSF Implementations: [main, 1.2]
+12:05:38,806 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.34.Final-redhat-1)
+12:05:38,805 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 39) JBAS011800: Activating Naming Subsystem
+12:05:38,826 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 44) JBAS013371: Activating Security Subsystem
+12:05:38,839 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013370: Current PicketBox version=4.1.2.Final-redhat-1
+12:05:38,845 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+12:05:38,852 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+12:05:38,859 INFO  [org.jboss.as.naming] (MSC service thread 1-13) JBAS011802: Starting Naming Service
+12:05:38,861 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+12:05:38,911 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+12:05:39,136 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003001: Coyote HTTP/1.1 initializing on : http-/127.0.0.1:8080
+12:05:39,154 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-3) JBWEB003000: Coyote HTTP/1.1 starting on: http-/127.0.0.1:8080
+12:05:39,170 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) JBAS015012: Started FileSystemDeploymentService for directory /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/deployments
+12:05:39,180 INFO  [org.jboss.as.remoting] (MSC service thread 1-6) JBAS017100: Listening on 127.0.0.1:4447
+12:05:39,180 INFO  [org.jboss.as.remoting] (MSC service thread 1-9) JBAS017100: Listening on 127.0.0.1:9999
+12:05:39,225 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+12:05:39,243 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.5.Final-redhat-3
+12:05:39,477 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+12:05:39,478 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+12:05:39,478 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) started in 1667ms - Started 153 of 191 services (57 services are lazy, passive or on-demand)
+12:05:45,561 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/0f/1ccfcc657d90c04162fb7c7e9cbbe96f82aa67/content
+12:05:45,571 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-14) JBAS015876: Starting deployment of "arquillian-service" (runtime-name: "arquillian-service")
+12:05:45,668 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-9) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.jmx:main") which may be changed or removed in future versions without notice.
+12:05:45,668 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-9) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.server:main") which may be changed or removed in future versions without notice.
+12:05:45,670 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-9) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.as.osgi:main") which may be changed or removed in future versions without notice.
+12:05:45,671 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-9) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.jandex:main") which may be changed or removed in future versions without notice.
+12:05:45,671 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-9) JBAS015867: Deployment "deployment.arquillian-service" is using a private module ("org.jboss.osgi.framework:main") which may be changed or removed in future versions without notice.
+12:05:45,671 WARN  [org.jboss.as.dependency.deprecated] (MSC service thread 1-9) JBAS015980: Deployment "deployment.arquillian-service" is using a deprecated module ("org.osgi.core:main") which may be removed in future versions without notice.
+12:05:45,689 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016012: Deployment deployment "arquillian-service" contains CDI annotations but beans.xml was not found.
+12:05:46,009 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015859: Deployed "arquillian-service" (runtime-name : "arquillian-service")
+12:05:46,441 INFO  [org.jboss.as.repository] (management-handler-thread - 3) JBAS014900: Content added at location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/32/4e7db370bf5fdc582dcb8595494a8ffb314c2f/content
+12:05:46,444 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "c1449e10-386e-4dfe-b0e8-87fb3918907c.war" (runtime-name: "c1449e10-386e-4dfe-b0e8-87fb3918907c.war")
+12:05:46,554 INFO  [org.jboss.as.arquillian] (MSC service thread 1-8) Arquillian deployment detected: ArquillianConfig[service=jboss.arquillian.config."c1449e10-386e-4dfe-b0e8-87fb3918907c.war",unit=c1449e10-386e-4dfe-b0e8-87fb3918907c.war,tests=[org.jboss.test.web.classloading.war.WarClassLoadingTestCase]]
+12:05:46,563 INFO  [org.jboss.web] (ServerService Thread Pool -- 21) JBAS018210: Register web context: /c1449e10-386e-4dfe-b0e8-87fb3918907c
+12:05:46,734 INFO  [org.jboss.as.server] (management-handler-thread - 3) JBAS015859: Deployed "c1449e10-386e-4dfe-b0e8-87fb3918907c.war" (runtime-name : "c1449e10-386e-4dfe-b0e8-87fb3918907c.war")
+12:05:47,496 INFO  [org.jboss.arquillian.testenricher.cdi.container.BeanManagerProducer] (pool-1-thread-1) BeanManager not found.
+12:05:47,546 INFO  [org.jboss.web] (ServerService Thread Pool -- 21) JBAS018224: Unregister web context: /c1449e10-386e-4dfe-b0e8-87fb3918907c
+12:05:47,566 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015877: Stopped deployment c1449e10-386e-4dfe-b0e8-87fb3918907c.war (runtime-name: c1449e10-386e-4dfe-b0e8-87fb3918907c.war) in 22ms
+12:05:47,724 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/32/4e7db370bf5fdc582dcb8595494a8ffb314c2f/content
+12:05:47,725 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS015858: Undeployed "c1449e10-386e-4dfe-b0e8-87fb3918907c.war" (runtime-name: "c1449e10-386e-4dfe-b0e8-87fb3918907c.war")
+12:05:47,892 INFO  [org.jboss.as.repository] (management-handler-thread - 2) JBAS014900: Content added at location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/9e/71c13c5c12d440cdc47864af58f6b88bec8558/content
+12:05:47,894 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-11) JBAS015876: Starting deployment of "response-buffer-size.war" (runtime-name: "response-buffer-size.war")
+12:05:47,926 INFO  [org.jboss.as.arquillian] (MSC service thread 1-12) Arquillian deployment detected: ArquillianConfig[service=jboss.arquillian.config."response-buffer-size.war",unit=response-buffer-size.war,tests=[org.jboss.test.web.servlet.buffersize.ResponseBufferSizeTestCase]]
+12:05:47,928 INFO  [org.jboss.web] (ServerService Thread Pool -- 50) JBAS018210: Register web context: /response-buffer-size
+12:05:48,018 INFO  [org.jboss.as.server] (management-handler-thread - 2) JBAS015859: Deployed "response-buffer-size.war" (runtime-name : "response-buffer-size.war")
+12:05:48,508 INFO  [org.jboss.web] (ServerService Thread Pool -- 50) JBAS018224: Unregister web context: /response-buffer-size
+12:05:48,514 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment response-buffer-size.war (runtime-name: response-buffer-size.war) in 7ms
+12:05:48,601 INFO  [org.jboss.as.repository] (management-handler-thread - 4) JBAS014901: Content removed from location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/9e/71c13c5c12d440cdc47864af58f6b88bec8558/content
+12:05:48,601 INFO  [org.jboss.as.server] (management-handler-thread - 4) JBAS015858: Undeployed "response-buffer-size.war" (runtime-name: "response-buffer-size.war")
+12:05:48,611 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) JBAS015877: Stopped deployment arquillian-service (runtime-name: arquillian-service) in 3ms
+12:05:48,702 INFO  [org.jboss.as.repository] (management-handler-thread - 1) JBAS014901: Content removed from location /home/panos/NetBeansProjects/gitOfficial/jboss-eap-EAP-6.4.x.x.2/build/target/jboss-as-7.5.5.Final-redhat-SNAPSHOT/standalone/data/content/0f/1ccfcc657d90c04162fb7c7e9cbbe96f82aa67/content
+12:05:48,702 INFO  [org.jboss.as.server] (management-handler-thread - 1) JBAS015858: Undeployed "arquillian-service" (runtime-name: "arquillian-service")
+12:05:48,706 INFO  [org.apache.catalina.core] (MSC service thread 1-9) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+12:05:48,708 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003075: Coyote HTTP/1.1 pausing on: http-/127.0.0.1:8080
+12:05:48,708 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+12:05:48,710 INFO  [org.apache.coyote.http11.Http11Protocol] (MSC service thread 1-6) JBWEB003077: Coyote HTTP/1.1 stopping on : http-/127.0.0.1:8080
+12:05:48,727 INFO  [org.jboss.as] (MSC service thread 1-3) JBAS015950: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) stopped in 20ms
+16:22:25,763 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.7.Final-redhat-1
+16:22:25,869 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+16:22:25,916 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015899: JBoss EAP 6.4.5.Alpha1 (AS 7.5.5.Final-redhat-SNAPSHOT) starting
+16:22:25,920 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_66/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_66/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_66/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_66-b17
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_66
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.66-b17
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.bundles.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/bundles
+	jboss.dist = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	jboss.home.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	jboss.host.name = 127
+	jboss.modules.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules
+	jboss.node.name = 127
+	jboss.qualified.host.name = 127.0.0.1 panos.redhat.com
+	jboss.server.base.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone
+	jboss.server.config.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/configuration
+	jboss.server.data.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/data
+	jboss.server.deploy.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/data/content
+	jboss.server.log.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/log
+	jboss.server.name = 127
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/tmp
+	jbossHome = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas
+	line.separator = 
+
+	logging.configuration = file:/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/configuration/logging.properties
+	module.path = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules
+	org.jboss.boot.log.file = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/log/boot.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.0.8-300.fc22.x86_64
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_66/jre/lib/resources.jar:/usr/java/jdk1.8.0_66/jre/lib/rt.jar:/usr/java/jdk1.8.0_66/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_66/jre/lib/jsse.jar:/usr/java/jdk1.8.0_66/jre/lib/jce.jar:/usr/java/jdk1.8.0_66/jre/lib/charsets.jar:/usr/java/jdk1.8.0_66/jre/lib/jfr.jar:/usr/java/jdk1.8.0_66/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_66/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.desktop = gnome
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/jboss-modules.jar -mp /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -server-config standalone.xml
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.dir = /home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations
+	user.home = /home/panos
+	user.language = en
+	user.name = panos
+	user.timezone = Europe/Paris
+16:22:25,921 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Xmx512m -XX:MaxPermSize=256m -Djboss.dist=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -DjbossHome=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -ea -Djboss.home.dir=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas -Dorg.jboss.boot.log.file=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/log/boot.log -Dlogging.configuration=file:/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/standalone/configuration/logging.properties -Djboss.bundles.dir=/home/panos/JBOSS_ADDITIONAL_TESTS/eap-additional-testsuite-restructured/modules/testcases/jdkAll/Eap/basic/test-configurations/../../../../../eap/build/target/jbossas/bundles 
+16:22:26,562 INFO  [org.xnio] (MSC service thread 1-8) XNIO Version 3.0.15.GA-redhat-1
+16:22:26,565 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+16:22:26,566 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.0.15.GA-redhat-1
+16:22:26,582 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 3.3.6.Final-redhat-1
